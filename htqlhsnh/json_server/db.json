@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "10001",
+      "name": "sochi",
+      "date_of_birth": "1990-01-01",
+      "gender": 0,
+      "citizen_identification_card": "123456789012345",
+      "address": "123 Main Street, Anytown, CA 12345",
+      "phone_number": "(555) 555-1212",
+      "email": "alice.smith@example.com",
+      "job_position": "Software Engineer",
+      "working_unit": "Tech Company",
+      "salary_level": "80000 USD",
+      "date_start_work": "2020-01-01",
+      "experience_degree_information": "Master's Degree",
+      "note": "",
+      "username": "sochi",
+      "role": "admin",
+      "password": "123"
+    },
+    {
+      "id": "10002",
+      "name": "dut",
+      "date_of_birth": "1985-07-14",
+      "gender": 1,
+      "citizen_identification_card": "987654321098765",
+      "address": "456 Elm Street, Anytown, CA 12345",
+      "phone_number": "(555) 555-3434",
+      "email": "bob.johnson@example.com",
+      "job_position": "Marketing Manager",
+      "working_unit": "Marketing Agency",
+      "salary_level": "75000 USD",
+      "date_start_work": "2021-05-15",
+      "experience_degree_information": "Bachelor's Degree",
+      "note": "",
+      "username": "dutngu",
+      "role": "leader",
+      "password": "123"
+    },
+    {
+      "id": "10003",
+      "name": "viet",
+      "date_of_birth": "1995-12-25",
+      "gender": 1,
+      "citizen_identification_card": "345678901234567",
+      "address": "789 Maple Street, Anytown, CA 12345",
+      "phone_number": "(555) 555-5656",
+      "email": "charlie.brown@example.com",
+      "job_position": "Graphic Designer",
+      "working_unit": "Design Studio",
+      "salary_level": "60000 USD",
+      "date_start_work": "2022-10-26",
+      "experience_degree_information": "Associate's Degree",
+      "note": "",
+      "username": "vietjn",
+      "role": "personal",
+      "password": "123"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
+
+    <!-- link icon -->
+    <link rel="stylesheet" href="../font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../font/fontawesome-free-6.4.0-web/css/all.css">
+</head>
+<body>
+    <h1>Các Nhân Sự Báo Cáo</h1>
+    <div class="header-ktkl">
+        <div class="header-ktkl-input QuayLai">
+            <button onclick="tranghome_ns()">Quay Lại</button>
+        </div>
+        <div class="header-ktkl-input Tim">
+            <input type="text" placeholder="Tìm kiếm tên báo cáo, tạp chí...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <div class="nav-cns form-person-box">
+        <label>STT</label>
+        <input type="text" id="fullname">
+        <br/>
+    
+        <label>Tên công trình</label>
+        <input type="text" id="fullname">
+        <br/>
+
+        <label>Năm Cong bố</label>
+        <input type="text" id="fullname">
+        <br/>
+
+        <label>Tạp chí</label>
+        <input type="text" id="fullname">
+        <br/>
+
+        <input class="btn-input them" type="button" value="Thêm">
+        <br/>
+
+    </div>
+
+    <div class="body-ktkl">
+        <div class="table-input">
+            <Table border="1" class="list-table table-ktkl" width="800px" cellpadding="0" cellpadding="0">
+                <tr>
+                    <th>STT</th>
+                    <th>Tên Công Trình</th>
+                    <th>Năm Công Bố</th>
+                    <th>Tạp Chí</th>
+                    <th>Hành Động</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <th>
+                        <input class="btn-input" type="button" value="Sửa">
+                        <input class="btn-input" type="button" value="Xóa">
+                    </th>
+                </tr>
+            </Table>
+        </div>
+    </div>
+
+    <script src="../JS/trang_home.js"></script>
+</body>
+</html>

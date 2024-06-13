@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
+    <title>Lãnh đạo trường</title>
+</head>
+<body>
+    <h1>LÃNH ĐẠO TRƯỜNG - KỶ LUẬT VÀ KHEN THƯỞNG</h1>
+    <div class="header-ktkl-input QuayLai">
+        <button onclick="tranghome()">Quay Lại</button>
+    </div>
+    <div class="container-form">
+        <div class="table-input">
+            <table border="1" class="list-table" width="800px" cellpadding="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Họ Tên</th>
+                        <th>Phòng ban</th>
+                        <th>Đơn vị</th>
+                        <th>Thành tích</th>
+                        <th>Đánh Giá</th>
+                        <th>Kiểm duyệt</th>
+                    </tr>
+                </thead>
+                <tbody id="employee-table-body">
+                    <!-- Data will be displayed here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+<script>
+    function tranghome_ld() {
+        window.location.href = '../html/trang_homeld.html'
+    };
+</script>
+<script src="../JS/lanhdaotruong.js"></script>
+<script src="../JS/trang_home.js"></script>
+</html>
