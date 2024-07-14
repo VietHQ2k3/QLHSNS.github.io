@@ -1,0 +1,411 @@
+
+.bx{
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+/* phong tổ chức */
+.phonglanhdao {
+    width: 100%;
+    height: 100%;
+}
+
+.phonglanhdao h1{
+    padding-top: 20px;
+}
+
+.form-person-phonglanhdao{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+.container-form-phonglanhdao {
+    width: 100%;
+    height: 50%;
+}
+
+.form-person-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 8px;
+}
+/* kết thúc phòng tổ chức */
+/* lãnh đạo */
+h1 {
+    text-align: center;
+    padding-top: 64px ;
+}
+.container-form {
+    display: flex;
+    padding: 54px 0;
+    margin: 0 12px;
+}
+
+.table-lanhdaotruong{
+    margin-left: 320px;
+}
+
+.table-input-list {
+    min-width: 100%;
+    text-align: center;
+}
+
+.list-table {
+    margin: 0 32px;
+}
+.list-table tr th{
+    padding: 2px;
+}
+
+.form-person {
+    min-width: 400px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: 24px;
+    padding: 8px 4px 20px 12px;
+}
+
+.form-person-box label {
+    width: 160px;
+    float: left;
+    margin-left: 60px;
+}
+
+.form-person-box input[type="text"] {
+    margin-bottom: 12px;
+    width: 220px;
+    padding-right: 5px;
+}
+
+.button-chucnang {
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.lanhdaodonvi-button{
+    margin-top: 20px;
+}
+
+.button-chucnang span button{
+    width: 100px;
+    padding: 4px 4px;
+    margin: 4px 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #696969;
+}
+
+.with-size-hoten{
+    width: 200px;
+}
+.with-size-phongban{
+    width: 220px;
+}
+
+.capnhap{
+    background: #a8fd91;
+    border: 1px solid black;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+table, th, td {  
+    border: 1px solid rgb(0, 0, 0);  
+    border-collapse: collapse;  
+}  
+th, td {  
+    padding: 2px;  
+}  
+
+.button-them{
+    background: aqua;
+}
+.button-sua{
+    background: orange;
+}
+.button-xoa{
+    background: red;    
+}
+
+.form-lanhdaodonvi {
+    margin-right: 84px;
+    width: 400px;
+}
+
+.form-box-lanhdaodonvi{
+    margin: 8px 0 0 8px;
+}
+
+.form-box-lanhdaodonvi label{
+    margin-left: 12px;
+    width: 120px;
+}
+
+/* kết thúc lãnh đạo */
+
+
+/* các nhân sự*/
+.header-ktkl {
+    display: flex;
+    margin: 16px 152px 0 152px;
+}
+
+.header-ktkl-input button {
+    font-size: 20px;
+    background: var(--green);
+    border: none;
+    height: 32px;
+    color: var(--white-color);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #999999;
+}
+
+.QuayLai button {
+    width: 120px;
+    margin: 0 148px;
+}
+
+.header-ktkl-input button:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid #999999;
+}
+
+.tim-cacnhansu{
+    margin-left: 120px;
+}
+
+.Tim input {
+    font-size: 20px;
+    padding: 0 4px;
+    width: 400px;
+}
+
+.Tim button {
+    width: 64px;
+}
+
+.table-ktkl {
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.table-ktkl tr th:first-child{
+    padding: 4px;
+}
+
+.btn-input{
+    border: none;
+    opacity: calc(75%);
+    margin: 8px 4px;
+    padding: px4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #999999;
+}
+
+.btn-input:hover {
+    opacity: calc(100%);
+    color: white;
+}
+
+.button{
+    border: 1px solid black;
+}
+
+.btn-input:nth-child(1){
+    background: aqua;
+}
+
+.btn-input:nth-child(2){
+    background: orange;
+}
+
+/* Các Nhân Sự 2 */
+.btn-quaylai{
+    margin: 0 40px 0 40px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.btn-quaylai:last-child {
+    background-color: rgb(241, 194, 194);
+}
+
+.btn-double {
+    display: flex;
+    justify-content: space-between;
+}
+.table-cns {
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-cns tr th{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.nav-cns {
+    width: 400px;
+    height: 196px;
+    margin-top: 20px;
+    padding-left: 16px;
+    padding-top: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 4px #696969;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.form-person-cns{
+    max-width: 400px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: 24px;
+    padding: 8px 4px 20px 12px;
+    max-height: 300px;
+}
+
+.form-person-box-cns label {
+    width: 120px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.form-person-box-cns input[type="text"] {
+    padding: 4px;
+}
+
+.them_cns button{
+    text-align: center;
+}
+
+.them{
+    margin-left: 148px;
+    font-size: 16px;
+    background: #fc9393;
+    border-radius: 8px;
+    padding: 4px 16px;
+    margin-top: 20px;
+}
+
+.form-person-cns{
+    min-width: 400px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: 24px;
+    padding: 8px 4px 20px 12px;
+    min-height: 280px;
+}
+
+/* Kết thúc các nhân sự */
+
+/* trợ giúp*/
+
+.head{
+    width: 100%;
+}
+
+.tieu-de{
+    color: #fff;
+    font-weight: 500;
+}
+
+.waper{
+    display: flex;
+    padding: 68px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    background: black;
+    color: white;
+    width: 580px;
+    height: 140px;
+    border-radius: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bodyapp1 button{
+    margin-top: 120px;
+}
+
+.body-right ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.body-right ul li a:hover{
+    color: #fd60fd;
+    text-decoration: underline;
+}
+
+.body-right ul li{
+    list-style: none;
+}
+
+.body-right ul li:first-child{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.body-left img{
+    border: 1px solid white;
+    width: 120px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+.body-right{
+    margin-left: 36px;
+    font-size: 20px;
+}
+
+.body-left{
+    padding: 20px;
+}
+
+.foot-tg{
+    text-align: center;
+    align-items: center;
+    margin-left: 532px;
+}
+
+.bx{
+    cursor: pointer;
+}
+
+.bxl-facebook:hover{
+    color: #55d5f8;
+}
+.bxl-google:hover{
+    color: #ff6f43;
+}
+
+.btn-trogiup {
+    padding: 4px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #5be436;
+    font-weight: 800;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* kết thúc trợ giúp */

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    background: #edc85ac8;
+}
+
+.head{
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    padding: 70px 0 0 0;
+}
+
+.bodyapp1 button{
+    font-size: 18px;
+    height: 64px;
+    width: 220px;
+    border: var(--border);
+    background: var(--white-color);
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.bodyapp1{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 0 80px;
+    
+}
+
+.bodyapp2 button{
+    font-size: 18px;
+    height: 64px;
+    width: 220px;
+    border: var(--border);
+    background: var(--white-color);
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.bodyapp2{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 0 80px;
+}
+
+.foot button{
+    font-size: 18px;
+    height: 64px;
+    width: 220px;
+    border: var(--border);
+    background: var(--white-color);
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.bodyapp1{
+    margin: 100px 0;
+}
+.bodyapp2{
+    margin: 100px 0;
+}
+
+button {
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: var(--primary-hover);
+    border: 1px solid #00bfff;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: var(--border-radius);
+}

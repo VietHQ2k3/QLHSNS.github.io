@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <title>Lãnh đạo đơn vị</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body >
+    <h1>LÃNH ĐẠO CÁC ĐƠN VỊ - KỶ LUẬT VÀ KHEN THƯỞNG</h1>
+    <div class="header-ktkl">
+        <div class="header-ktkl-input QuayLai">
+            <button onclick="tranghome()">Quay Lại</button>
+        </div>
+        <div class="header-ktkl-input Tim">
+            <input type="text" id="searchBar" placeholder="Tìm kiếm theo ID...">
+            <button class="tim-cacnhansu" onclick="searchData()"><i class='bx bx-search'></i></i></button>
+            <button class="hienthi-all" onclick="showAllData()">All</button>
+        </div>
+    </div>
+    <div class="container-form">
+        <div class="form-person form-lanhdaodonvi">
+            <form id="dataForm" class="form-person-box form-box-lanhdaodonvi">
+                <label for="id">ID đơn vị:</label>
+                <input type="text" id="id" name="id" placeholder="ID đơn vị" required><br><br>
+                <label for="name">Họ Tên:</label>
+                <input type="text" id="name" name="name" placeholder="Họ và Tên" required><br><br>
+                <label for="department">Đơn Vị:</label>
+                <input type="text" id="department" name="department" placeholder="Đơn vị đang công tác" required><br><br>
+                <label for="achievement">Thành Tích:</label>
+                <input type="text" id="achievement" name="achievement" placeholder="Thành tích đạt được" required><br><br>
+                <label for="evaluation">Đánh Giá:</label>
+                <input type="text" id="evaluation" name="evaluation" placeholder="Đánh giá thành tích" required><br><br>
+
+                <div class="button-chucnang">
+                    <span>
+                        <button type="button" onclick="addData()">Thêm</button>
+                        <button type="button" onclick="editData()">Sửa</button>
+                    </span>
+                    <span>
+                        <button type="button" onclick="deleteData()">Xóa</button>
+                        <button type="button" onclick="refreshData()">Refresh</button>
+                    </span>
+                    <span>
+                        <button type="button" onclick="btnthoat()">Thoát</button>
+                    </span>
+                </div>
+            </form>
+        </div>
+        <div class="table-input">
+            <Table id="dataTable4" border="1" class="list-table " width="800px" cellpadding="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Họ Tên</th>
+                        <th>Đơn Vị</th>
+                        <th>Thành Tích</th>
+                        <th>Đánh Giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </Table>
+        </div>
+    </div>
+    <script src="lanhdaodonvi.js"></script>
+    <script src="trang_home.js"></script>
+</body>
+</html>

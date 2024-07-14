@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các nhân sự</title>
+    
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reponsive.css">
+
+    <!-- link icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body >
+    <h1>Các Nhân Sự Báo Cáo</h1>
+    <div class="header-ktkl">
+        <div class="header-ktkl-input QuayLai">
+            <button onclick="tranghome()">Quay Lại</button>
+        </div>
+        <div class="header-ktkl-input Tim">
+            <input type="text" id="searchBar" placeholder="Tìm kiếm theo ID...">
+            <button class="tim-cacnhansu" onclick="searchData()"><i class='bx bx-search'></i></i></button>
+            <button class="hienthi-all" onclick="showAllData()">All</button>
+        </div>
+    </div>
+    <div class="container-form">
+        <div class="form-person-cns">
+            <form id="dataForm" class="form-person-box form-person-box-cns">
+
+                <label>ID nhân sự</label>
+                <input type="text" id="idcs" placeholder="ID nhân sự" required><br><br>
+
+
+                <label>Tên Công Trình</label>
+                <input type="text" id="namecs" placeholder="Tên công trình tham gia" required><br><br>
+
+                <label>Ngày công bố</label>
+                <input type="text" id="year" placeholder="Ngày công bố" required><br><br>
+
+                <label>Tạp chí</label>
+                <input type="text" id="journal" placeholder="Tên tạp chí" required><br>
+
+                <div class="button-chucnang">
+                    <span>
+                        <button type="button" onclick="addData(event)">Thêm</button>
+                        <button type="button" onclick="editData()">Sửa</button>
+                    </span>
+                    <span>
+                        <button type="button" onclick="deleteData()">Xóa</button>
+                        <button type="button" onclick="refreshData()">Refresh</button>
+                    </span>
+                    <span>
+                        <button type="button" onclick="btnthoat()">Thoát</button>
+                    </span>
+                </div>
+            </form>
+        </div>
+        <div class="table-input">
+            <Table id="dataTable1" border="1" class="list-table" width="800px" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên Công Trình</th>
+                        <th>Ngày Công Bố</th>
+                        <th>Tạp Chí</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </Table>
+        </div>
+
+    </div>
+
+    
+    <script src="trang_home.js"></script>
+    <script src="cacnhansu.js"></script>
+</body>
+</html>

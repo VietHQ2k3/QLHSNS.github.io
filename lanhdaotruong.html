@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <title>Lãnh đạo trường</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .delete-checkbox {
+            width: 20px;
+            height: 20px;
+            border: 1px solid rgb(190, 189, 189);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            user-select: none;
+            text-align: center;
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body >
+    <h1>LÃNH ĐẠO TRƯỜNG - KỶ LUẬT VÀ KHEN THƯỞNG</h1>
+    <div class="header-ktkl">
+        <div class="header-ktkl-input QuayLai">
+            <button onclick="tranghome()">Quay Lại</button>
+        </div>
+        <div class="header-ktkl-input Tim">
+            <input type="text" id="searchBar" placeholder="Tìm kiếm theo ID...">
+            <button class="tim-cacnhansu" onclick="searchData()"><i class='bx bx-search'></i></i></button>
+            <button class="hienthi-all" onclick="showAllData()">All</button>
+        </div>
+    </div>
+    <div class="container-form">
+        <div class="table-input table-lanhdaotruong">
+            <table id="dataTable3" border="1" class="list-table" width="800px" cellpadding="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Họ Tên</th>
+                        <th>Đơn vị</th>
+                        <th>Thành tích</th>
+                        <th>Đánh Giá</th>
+                        <th>Kiểm duyệt</th>
+                    </tr>
+                </thead>
+                <tbody id="employee-table-body">
+                    <!-- Data will be displayed here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+<script>
+    function quayve() {
+        window.location.href = '../index.html'
+    };
+</script>
+<script src="lanhdaotruong.js"></script>
+<script src="trang_home.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color:#000;
+    --text-color:#333;
+    --primary-color:#00bfff;
+    --border-color: #dbdbdb;
+    --star-gold-color: #ffce3e;
+    --primary-hover: #00bfff;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../login/img/as.jpg);
+    background-size: 100%;
+  }
+
+.login_signup {
+    background-color: rgba(196, 195, 195, 0.5);
+    width: 500px;
+    height: 350px;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.login .header_login_logo {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.input__text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input__text {
+}
+
+.input__text .input__text-form {
+    padding: 10px 10px;
+    margin: 4px 0px;
+    border: 1px solid #777; 
+    border-radius: 6px;
+    height: 40px;
+    
+}
+.btn {
+    width: 100%;
+    margin: 32px 0;
+    border-radius: 30px;
+    height: 40px;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    padding: 12px 160px;
+}
+
+.login button {
+    background-color: var(--primary-color);
+    border: 1px solid #7e7e7e;
+    
+}
+.login button a {
+    color: var(--white-color);
+    width: 100%;
+    height: 100%;
+}
+
+.login button a:hover {
+    color: #000;
+}
+
+.login button:hover {
+    background-color: #4f96af;
+    font-style: var(--black-color);
+    font-weight: 600;
+}
+
